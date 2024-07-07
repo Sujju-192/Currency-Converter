@@ -17,34 +17,31 @@
                     <input id="Amount" placeholder="Enter the amount" type="text">
                 </div>
                 <div class="Currency">
-                    <img id="from_img" src="https://flagsapi.com/US/flat/64.png" alt="from_img">
-                    <select class="from">
-                        <option selected value="US">USD</option>
-                        <option value="IN">INR</option>
-                        <option value="NP">NPR</option>
-                        <option value="PK">PKR</option>
-                    </select>
-
+                    <div class="inner-curr">
+                        <img id="from_img" src="https://flagsapi.com/US/flat/64.png" alt="from_img">
+                        <select class="from">
+                            
+                        </select>
+                    </div> 
                     <button id="arrow" type="submit">  
                         <i class="fa-solid fa-arrow-right-arrow-left"></i>
                     </button>  
-
-                    <img id="to_img" src="https://flagsapi.com/IN/flat/64.png" alt="to_img">
-                    <select class="to">
-                        <option value="US">USD</option>
-                        <option selected value="IN">INR</option>
-                        <option value="NP">NPR</option>
-                        <option value="PK">PKR</option>
-                    </select>
+                    <div class="inner-curr">
+                        <img id="to_img" src="https://flagsapi.com/IN/flat/64.png" alt="to_img">
+                        <select class="to">
+                            
+                        </select>
+                    </div> 
                 </div>
                 <button type="submit" class="btn">Get Currency Rate</button>
                 <div class="output">
-                    
+                    1 USD = 80 INR
                 </div>
             </form>
         </div>
     </div>
-
+    <script src="code.js"></script>
     <script src="index.js"></script>
+    
 </body>
 </html>

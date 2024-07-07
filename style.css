@@ -58,7 +58,10 @@ form{
 }
 .Currency select{
     height: 40px;
-    width: 30%;
+    width: 60px;
+}
+.inner-curr{
+    display: flex;
 }
 #arrow{
     background-color: transparent;
@@ -73,6 +76,8 @@ form{
     width: 70%;
     height: 2.2rem;
     font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .output{
     height: 2.3rem;
